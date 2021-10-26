@@ -1,85 +1,36 @@
-# 05 Third-Party APIs: Work Day Scheduler
+# Week 05 Homework Third-Party APIs: Work Day Scheduler
 
 ## Your Task
 
-Create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+Create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery. Each hour of the workday planner should have a save button to save the text to local storage. Upon initial page load, if workday hour spots have text data in local storage, it should populate on the page for the correct hour of the workday. Checking against current time, previous hours in the workday should be background color of gray, current hour should be red, and future hours should be green background color.
 
-## User Story
+## Languages Used
+- JS/jQuery/Moment
+- HTML
+- CSS
 
-```md
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
+## Link to GitHub main project
+https://github.com/yardboy2401/week5-homework-wymore
 
-## Acceptance Criteria
+## Link to deployed application
+https://yardboy2401.github.io/week5-homework-wymore/
 
-```md
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-WHEN I click into a timeblock
-THEN I can enter an event
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
-```
+## Screenshots of finished product
+### On initial page load
+![image](https://user-images.githubusercontent.com/85953688/138786809-1db18fde-ccb4-467d-8f2b-5a70068071aa.png)
+### After adding text to workday hour and saving
+![image](https://user-images.githubusercontent.com/85953688/138786918-0c75b700-45ec-471b-9f47-5833dfca4ad0.png)
+### After adding text to workday hour and saving-showing local storage
+![image](https://user-images.githubusercontent.com/85953688/138787061-9811d049-82c9-4025-8c2d-f8d9cc0df1a0.png)
 
-The following animation demonstrates the application functionality:
+## Project Notes
+Saving text for each workday hour to local storage is working as intended. Saves a Key in local storage of the hour of the workday for parsing data back to the page on initial page load if text is stored in local storage. 
 
-![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/05-third-party-apis-homework-demo.gif)
+## Contact Information
+Github: https://github.com/yardboy2401
+
+Email: yardboy2401@gmail.com
 
 
-## Grading Requirements
 
-This homework is graded based on the following criteria: 
-
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the above acceptance criteria plus the following:
-
-  * Uses a date utility library to work with date and time
-
-### Deployment: 32%
-
-* Application deployed at live URL
-
-* Application loads with no errors
-
-* Application GitHub URL submitted
-
-* GitHub repo contains application code
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate
-
-* Application user interface style is clean and polished
-
-* Application resembles the mock-up functionality provided in the homework instructions
-
-### Repository Quality: 13%
-
-* Repository has a unique name
-
-* Repository follows best practices for file structure and naming conventions
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages
-
-* Repository contains quality README file with description, screenshot, and link to deployed application
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application
-
-* The URL of the GitHub repository, with a unique name and a README describing the project
 
