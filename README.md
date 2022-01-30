@@ -1,4 +1,4 @@
-# Week 05 Homework Third-Party APIs: Work Day Scheduler
+# Work Day Scheduler-Wymore
 
 ## Your Task
 
