@@ -10,10 +10,10 @@ Create a simple calendar application that allows a user to save events for each 
 - CSS
 
 ## Link to GitHub main project
-https://github.com/yardboy2401/week5-homework-wymore
+https://github.com/yardboy2401/Work-Day-Scheduler-Wymore
 
 ## Link to deployed application
-https://yardboy2401.github.io/week5-homework-wymore/
+https://yardboy2401.github.io/Work-Day-Scheduler-Wymore/
 
 ## Screenshots of finished product
 ### On initial page load
